@@ -1,0 +1,57 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  #song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #song-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  #song-list li:hover {
+    background-color: #eee;
+  }
+  
+  #song-list li:active {
+    background-color: #ccc;
+  }
+  
+  .player-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-container .play-button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .player-container .play-button:hover {
+    background-color: #444;
+  }
+  
+  .player-container .play-button:active {
+    background-color: #555;
+  }
