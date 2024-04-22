@@ -1,15 +1,20 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Reproductor de música</title>
-    <link rel="stylesheet" href="style.css">
+	<title>Reproductor de música</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Reproductor de música</h1>
-    <ul id="song-list">
-        <!-- lista de temas generada por la API -->
-    </ul>
-    <script src="script.js"></script>
+	<h1>Reproductor de música</h1>
+	<ul id="song-list">
+		<li data-song="song1.mp3">Canción 1</li>
+		<li data-song="song2.mp3">Canción 2</li>
+		<li data-song="song3.mp3">Canción 3</li>
+	</ul>
+	<div class="player-container">
+		<button class="play-button" id="play-button">Reproducir</button>
+		<audio id="audio-player" src="" type="audio/mp3"></audio>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
